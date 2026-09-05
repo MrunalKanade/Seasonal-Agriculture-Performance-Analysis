@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache / build files
+*.egg-info/
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Secrets / environment files
+.env
+.env.*
+
+# Generated HTML files
+*.html
