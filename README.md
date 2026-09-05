@@ -1,164 +1,99 @@
-\# Seasonal Agriculture Performance Analysis
+# Seasonal Agriculture Performance Analysis
 
-
-
-\## 📌 Overview
-
-
+## Project Overview
 
 This project analyzes agricultural performance across different seasons using Python and data analytics techniques.
 
+The analysis focuses on identifying seasonal differences, trends, relationships and variations in agricultural performance based on factors such as crop type, rainfall, soil moisture, irrigation, yield, production, revenue, cost and profit.
 
+## Objectives
 
-\## 🎯 Objectives
+- Analyze agricultural performance across Kharif, Rabi and Zaid seasons.
+- Compare crop yield and profitability across seasons.
+- Study relationships between environmental and resource-related factors and crop yield.
+- Analyze water efficiency and irrigation patterns.
+- Identify variations and outliers in agricultural performance.
+- Apply statistical techniques to evaluate seasonal differences.
+- Generate meaningful visualizations and evidence-based insights.
 
+## Dataset
 
+The dataset contains agricultural records with information related to:
 
-\- Analyze seasonal agricultural performance
+- Season
+- Crop
+- Farm Area
+- Rainfall
+- Soil Moisture
+- Irrigation
+- Water Usage
+- Yield
+- Production
+- Market Price
+- Revenue
+- Total Cost
+- Profit
+- Water Efficiency
+- Disease/Pest Risk
+- Other agricultural and management variables
 
-\- Identify seasonal trends
+## Technologies Used
 
-\- Compare crop performance
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SciPy
+- Jupyter Notebook
 
-\- Analyze environmental conditions
+## Analysis Performed
 
-\- Examine resource usage
+### Data Cleaning
 
-\- Analyze economic outcomes
+- Missing value identification
+- Median imputation for selected numerical variables
+- Duplicate record checking
+- Data consistency validation
 
-\- Study water efficiency
+### Exploratory Data Analysis
 
-\- Investigate disease and pest risk
+- Seasonal performance comparison
+- Crop-wise analysis
+- Profitability analysis
+- Water efficiency analysis
+- Correlation analysis
+- Outlier detection
 
-\- Identify relationships between variables
+### Statistical Analysis
 
-\- Generate evidence-based recommendations
+The project uses:
 
+- One-way ANOVA
+- Kruskal-Wallis test
 
+These tests are used to examine whether agricultural performance differs significantly across seasons.
 
-\## 📊 Dataset
+## Key Findings
 
+The analysis shows meaningful differences in agricultural performance across seasons.
 
+Kharif showed stronger overall profitability and yield performance, while Zaid showed weaker profitability and a higher proportion of loss-making farms.
 
-The dataset contains agricultural records covering:
+The analysis also indicates that crop composition, resource usage and environmental conditions should be considered when interpreting seasonal differences.
 
-
-
-\- Location
-
-\- Crop
-
-\- Season
-
-\- Environmental conditions
-
-\- Soil characteristics
-
-\- Agricultural inputs
-
-\- Yield
-
-\- Production
-
-\- Revenue
-
-\- Cost
-
-\- Profit
-
-\- Water usage
-
-\- Disease/pest risk
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Seaborn
-
-\- SciPy
-
-\- Scikit-learn
-
-\- Google Colab
-
-\- Jupyter Notebook
-
-
-
-\## 🔍 Analysis Performed
-
-
-
-1\. Data Understanding
-
-2\. Data Cleaning
-
-3\. Exploratory Data Analysis
-
-4\. Seasonal Analysis
-
-5\. Environmental Analysis
-
-6\. Resource Usage Analysis
-
-7\. Productivity Analysis
-
-8\. Economic Analysis
-
-9\. Water Efficiency Analysis
-
-10\. Crop-wise Analysis
-
-11\. Regional Analysis
-
-12\. Correlation Analysis
-
-13\. Statistical Analysis
-
-14\. Outlier Analysis
-
-15\. Insight Generation
-
-
-
-\## 📈 Key Findings
-
-
-
-Key findings are documented in the project notebook based on the analysis of the dataset.
-
-
-
-\## 📁 Project Structure
-
-
+## Project Structure
 
 ```text
-
 Seasonal-Agriculture-Performance-Analysis/
-
 │
-
 ├── data/
-
-├── notebooks/
-
-├── outputs/
-
+│   └── seasonal_agriculture_performance_dataset.csv
+│
+├── notebook/
+│   └── Seasonal_Agriculture_Performance_Analysis_Submission_Ready.ipynb
+│
+├── .gitignore
 ├── README.md
-
 ├── requirements.txt
-
-└── .gitignore
-
+└── Seasonal_Agriculture_Performance_Analysis_Major_Project_Presentation.pptx
